@@ -231,7 +231,7 @@ plt.xticks(rotation=45, ha='right')
 st.pyplot(fig_distribution)
 
 # Carte interactive
-st.title(f'Carte interactive des dréquantation des  lieux culuturelle nantais en {annee_selectionnee}')
+st.title(f'Carte interactive des fréquantations des  lieux culuturelles nantais en {annee_selectionnee}')
 folium_map = folium.Map(location=[47.2184, -1.5536], zoom_start=13)
 
 for index, row in nantais_df.iterrows():
